@@ -15,7 +15,7 @@ class Ext4fuse < Formula
   end
 
   depends_on "pkgconf" => :build
-  depends_on "libfuse@2"
+  depends_on "timtogan/tim/libfuse@2"
   #depends_on :linux # on macOS, requires closed-source macFUSE
 
   def install
