@@ -7,7 +7,7 @@ cask "elastic" do
   desc "Dashboard for managing Elastic services"
   homepage "https://github.com/Gold872/elastic_dashboard"
 
-  arm64_apple_silicon
+  depends_on arch: :arm64
   auto_updates true
 
   app "elastic_dashboard.app"
